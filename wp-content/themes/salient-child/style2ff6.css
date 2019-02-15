@@ -1,0 +1,223 @@
+/*
+
+Theme Name: Salient Child Theme
+
+Theme URI: http: //mysite.com/
+
+Description: This is a custom child theme for Salient
+
+Author: My Name
+
+Author URI: http: //mysite.com/
+
+Template: salient
+
+Version: 0.1
+
+*/
+
+
+.page-submenu li a{
+    color:#333 !important;
+}
+
+ .page-submenu.stuck li.current-menu-item a{
+color:#0098c3 !important;
+font-weight:bold;
+ }
+
+@font-face {
+	font-family: 'd_sari_boldbold';
+	src: url('fonts/Bold/DSari_Bold-webfont.eot');
+	src: url('fonts/Bold/DSari_Bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Bold/DSari_Bold-webfont.html') format('woff'),
+		url('fonts/Bold/DSari_Bold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6,body h4, .row .col h4, .portfolio-items .work-meta h4, .list-icon-holder[data-icon_type="numerical"] span, .portfolio-items .col.span_3 .work-meta h4, #respond h3, h3#comments, .portfolio-items[data-ps="6"] .work-meta h4, .nectar-hor-list-item[data-font-family="h4"],.nectar-cta .link_wrap .link_text,header#top nav > ul > li > a{
+	font-family: 'd_sari_boldbold' !important;
+	letter-spacing:normal !important;
+}
+
+
+body #header-outer.transparent header#top nav > ul > li > a{
+    opacity: 1 !important;
+}
+
+.single-post.ascend .container-wrap.fullscreen-blog-header, body.single-post.ascend[data-bg-header="true"] .container-wrap{
+	padding-top:0px !important;
+}
+
+.page-submenu li a{
+	margin-top:5px;
+}
+
+.img-with-aniamtion-wrap .inner{
+	background: rgba(0, 0, 0, 1); /*can be anything, of course*/
+}
+
+.nectar-google-map{
+	height:100vh !important;
+}
+
+.business .nectar_image_with_hotspots img{
+	width:120px;
+	margin:0 auto;
+	margin-bottom:15px !important;
+}
+
+
+.wpb_column[data-cfc="true"] p {
+    color: #333 !important;
+}
+
+.img-with-aniamtion-wrap .inner img:hover{
+	opacity: 1 !important;
+}
+
+#page-header-bg[data-post-hs="default_minimal"] #single-below-header{
+	display: none!important;
+	opacity: 0;
+}
+
+.erppunt h3{
+	font-family: Raleway !important;
+	font-weight:normal !important;
+}
+
+.erppunt .nectar_image_with_hotspots {
+	margin-bottom:12px !important;
+}
+
+
+.nectar-cta{
+	margin-top:30px;
+}
+
+.page-submenu ul{
+	background:#0098c3!important;
+}
+
+.nectar-cta.smalltop{
+	margin-top:-15px; 
+}
+
+.nectar-google-map{
+	opacity: 0.8;
+}
+
+body h6, .row .col h6, .nectar-hor-list-item[data-font-family="h6"]{
+	letter-spacing: 0px !important; 	
+}
+
+#intro .nectar-cta.inline{
+	margin-left:10px !important;
+	margin-right:10px !important;
+}
+	
+.nectar-cta.inline{
+    display: inline-block !important;
+    margin-right: 20px !important;
+}
+
+.nectar-fancy-box .box-bg::after {
+	background-color: rgba(0,0,0,0.8);
+}
+
+body[data-form-style="minimal"] .nieuwsbrief .minimal-form-input label span.text,
+body[data-form-style="minimal"] .nieuwsbrief .minimal-form-input label span.text .text-inner,
+body[data-form-style="minimal"] .nieuwsbrief .minimal-form-input.has-text input{
+	color:#fff !important;
+}
+
+.comments-section,
+.bottom-meta{
+	display:none !important;
+}
+
+.img-with-aniamtion-wrap .inner{
+	background:none;
+}
+
+body #page-header-bg h1, html body .row .col.section-title h1{
+	font-size:140px !important;
+	line-height: 120px !important;
+}
+
+.masonry.classic_enhanced .masonry-blog-item h3.title{
+	color:#0098c3;
+}
+
+.mijncegeka{
+	background:url( ../../../../cegeka-dsa.azurewebsites.netwp-content/uploads/2017/07/Icon-e1500553124150.png) no-repeat;
+	padding-right:10px;
+	margin-left:30px;
+	float:right !important;
+}
+
+.mijncegeka a{
+	width:34px;
+	height:34px;
+	margin-left:0px !important;
+	padding-left:0px;
+	opacity: 0;
+}
+
+.mijncegeka a:hover{
+	
+}
+
+
+
+
+.hoverblokafbeelding.wpb_column:hover::before{
+	opacity: 0.5 !important;
+}
+
+/* 
+.hoverblok.wpb_column:hover::before{
+	-webkit-box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,0.75) !important;
+	-moz-box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,0.75) !important;
+	box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,0.75) !important;
+}
+*/
+
+.masonry.classic_enhanced article.post .post-meta a, .masonry.classic_enhanced .post-header, .masonry.classic_enhanced article.post .excerpt, .blog-recent[data-style*="classic_enhanced"] .excerpt, .blog-recent[data-style*="classic_enhanced"] .post-meta a{
+	color:#333 !important;
+}
+
+#post-area.masonry.classic_enhanced article.post .post-meta, .blog-recent[data-style*="classic_enhanced"] .post-meta{
+	display:none !important;
+}
+
+.masonry.classic_enhanced article.post.wide_tall .excerpt,
+.masonry.classic_enhanced .wide_tall .post-header{
+	color:#fff !important;
+}
+	
+
+
+@media screen and (max-width: 2240px) {
+	.nectar-youtube-bg{
+		margin-top: -40px;
+	}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+	
+	h2{
+		line-height: 72px !important;
+	}
+	
+	
+	body .wpb_row .span_12 >.col.padding-5-percent, .column-inner.padding-5-percent,
+	body .wpb_row .span_12 > .col.padding-5-percent[data-padding-pos="all"]{
+		padding-top:10% !important;
+	}
+}
+
+
